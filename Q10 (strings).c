@@ -1,4 +1,4 @@
-// Q6. WAP in C to check if two strings are Anagram strings or not.
+// Q10. WAP in C to check if two strings are Anagram strings or not.
 
 #include <stdio.h>
 #include <string.h>
