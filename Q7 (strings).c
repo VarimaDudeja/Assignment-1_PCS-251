@@ -1,4 +1,5 @@
-// Q2. WAP in C to check whether a substring is present in the main string or not.
+// Q7. WAP in C to check whether a substring is present in the main string or not.
+
 #include<stdio.h>
 #include<string.h>
 void main() 
