@@ -1,4 +1,5 @@
-// Q5. WAP in C to check whether the matrix is a 'Magic Square' Matrix or not.
+// Q11. WAP in C to check whether the matrix is a 'Magic Square' Matrix or not.
+
 #include <stdio.h>
 void main()
 {
