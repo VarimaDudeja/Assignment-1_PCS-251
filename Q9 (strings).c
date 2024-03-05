@@ -1,7 +1,7 @@
 // Q9. WAP in C to print the pig-latin form of a word.
 
-#include<stdio.h>
-#include<string.h>
+#include <stdio.h>
+#include <string.h>
 void main()
 {
     char s[100], w[100];
