@@ -1,7 +1,7 @@
-// Q1. WAP in C to print the frequency of each word of a string.
+// Q6. WAP in C to print the frequency of each word of a string.
 
-#include<stdio.h>
-#include<string.h>
+#include <stdio.h>
+#include <string.h>
 void main()
 {
     char s[100];
