@@ -1,4 +1,5 @@
 // Q2. WAP in C to print left & right diagonals of a square matrix.
+
 #include <stdio.h>
 void main()
 {
