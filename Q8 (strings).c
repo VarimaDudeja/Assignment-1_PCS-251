@@ -1,6 +1,7 @@
-// Q3. WAP in C to check if a string is unique or not.
-#include<stdio.h>
-#include<string.h>
+// Q8. WAP in C to check if a string is unique or not.
+
+#include <stdio.h>
+#include <string.h>
 void main()
 {
     char s[100];
