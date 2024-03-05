@@ -1,4 +1,5 @@
 // Q3. WAP in C to print the sum of elements of each row of a matrix.
+
 #include <stdio.h>
 void main()
 {
