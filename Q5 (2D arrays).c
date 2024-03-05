@@ -1,5 +1,6 @@
 // Q5. WAP in C to check whether a matrix is symmetric or not.
-#include<stdio.h>
+
+#include <stdio.h>
 void main()
 {
     int r, c, i, j, k=0;
