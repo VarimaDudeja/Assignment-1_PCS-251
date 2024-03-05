@@ -1,4 +1,5 @@
-// Q4. WAP in C to print the pig latin form of a word.
+// Q9. WAP in C to print the pig-latin form of a word.
+
 #include<stdio.h>
 #include<string.h>
 void main()
