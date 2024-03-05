@@ -1,14 +1,16 @@
 // Q11. WAP in C to check whether the matrix is a 'Magic Square' Matrix or not.
 
 #include <stdio.h>
+int r, c;
+int MagicSquare(int [r][c]);
 void main()
 {
-  int r, c, i, j, a=0, sum, k=1;;
+  int i, j;
   printf("Enter the no. of rows and columns of the matrix:\nr = ");
   scanf("%i", &r);
   printf("c = ");
   scanf("%i", &c);
-  int x[r][c], s[2*r+2];
+  int x[r][c];
   if(r!=c)
     printf("ERROR! Please Try Again with a square matrix.\n");
   else
@@ -30,6 +32,13 @@ void main()
         }
     printf("\n");
     }
+    MagicSquare(x);
+  }
+}
+
+  int MagicSquare(int x[r][c])
+  {
+    int i, j, a=0, sum, k=1, s[2*r+2];
     for(i=0; i<r; i++)
     { 
         sum=0;
@@ -73,5 +82,5 @@ void main()
         
     else    
         printf("It is not a Magic Square Matrix.\n");
-  }
+  
 } 
