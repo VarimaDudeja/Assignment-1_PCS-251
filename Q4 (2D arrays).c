@@ -1,6 +1,6 @@
 // Q4. WAP in C to print the sum of elements of each column of a matrix.
 
-#include<stdio.h>
+#include <stdio.h>
 void main()
 {
 	int r, c, i, j, s=0;
