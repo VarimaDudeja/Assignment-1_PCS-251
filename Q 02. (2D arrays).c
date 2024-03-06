@@ -8,9 +8,9 @@ void main()
   scanf("%i", &size);
   int x[size][size];
   printf("Enter %i elements:\n", size*size);
-  for(i=0; i<r; i++)
+  for(i=0; i<size; i++)
   {
-    for(j=0; j<c; j++)
+    for(j=0; j<size; j++)
     {
       scanf("%i", &x[i][j]);
     }
