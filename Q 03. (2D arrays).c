@@ -33,7 +33,7 @@ void main()
   		{
 			s = s + x[i][j];
    		}
-    	printf("Sum of elements of row %i = %i", i, s);
+    	printf("Sum of elements of row %i = %i", i+1, s);
   	}
 } 
  
