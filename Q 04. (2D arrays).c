@@ -28,6 +28,7 @@ void main()
   	}
   	for(i=0; i<c; i++)
   	{ 
+		s=0;
   		for(j=0; j<r; j++)
   		{
 			s = s + x[j][i];
