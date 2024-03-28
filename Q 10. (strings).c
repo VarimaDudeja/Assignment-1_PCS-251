@@ -5,7 +5,7 @@
 void main() 
 {
     char s1[100], s2[100];
-    int f1[26] = {0}, f2[26] = {0}, i, j, a = 1, t;
+    int f1[26] = {0}, f2[26] = {0}, f3[26] = {0}, f4[26] = {0}, i, j, a = 1, t;
 
     printf("Enter string1: ");
     gets(s1);
@@ -23,7 +23,7 @@ void main()
                 f1[s1[i] - 'a']++;
                 
             else if ((s1[i] >= 'A' && s1[i] <= 'Z')) 
-                f1[s1[i] - 'A']++;
+                f3[s1[i] - 'A']++;
             else
                 continue;
         }
@@ -33,14 +33,14 @@ void main()
                 f2[s2[i] - 'a']++;
                 
             else if ((s2[i] >= 'A' && s2[i] <= 'Z')) 
-                f2[s2[i] - 'A']++;
+                f4[s2[i] - 'A']++;
             
             else
                 continue;
         }
         for (i = 0; i < 26; i++) 
         {
-            if (f1[i] != f2[i]) 
+            if (f1[i] != f2[i]||f3[i] != f4[i]) 
             {
                 a = 0;
                 break;
