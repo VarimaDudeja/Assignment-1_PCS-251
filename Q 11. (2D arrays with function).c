@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 int r, c;
-int MagicSquare(int [r][c]);
+void MagicSquare(int [r][c]);
 void main()
 {
   int i, j;
@@ -36,7 +36,7 @@ void main()
   }
 }
 
-  int MagicSquare(int x[r][c])
+  void MagicSquare(int x[r][c])
   {
     int i, j, a=0, sum, k=1, s[2*r+2];
     for(i=0; i<r; i++)
