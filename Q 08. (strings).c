@@ -5,23 +5,23 @@
 void main()
 {
     char s[100];
-    int f[26] = {0}, i, x=1 ; 
+    int f1[26] = {0}, f2[26] = {0}, i, x=1, y=1 ; 
     printf("Enter a string: ");
     gets(s);
     for (i = 0; s[i]!='\0'; i++) 
     {
         if((s[i]>='a'&&s[i]<='z'))
-            f[s[i]-'a']++;
+            f1[s[i]-'a']++;
         
         else if((s[i]>='A'&&s[i]<='Z')) 
-            f[s[i]-'A']++;
+            f2[s[i]-'A']++;
             
         else
             continue;
     }
     for (i = 0; i<26; i++) 
     {
-        if (f[i]>1) 
+        if (f1[i]>1) 
         {
             x=0;
             break;
@@ -29,7 +29,19 @@ void main()
         
     }
     if(x==1)
+    {
+        for (i = 0; i<26; i++) 
+        {
+            if (f2[i]>1) 
+            {
+                y=0;
+                break;
+            }
+        
+        }
+    }
+    if(x==1&&y==1)
         printf("The string is Unique.\n");
-    else
-        printf("The string is not Unique.\n");
+    else    
+        printf("The string is not Unique.\n"); 
 }        
